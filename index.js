@@ -56,6 +56,7 @@ function newCard() {
 
 function startGame() {
     isAlive = true
+    hasBJ = false
     let firstCard = getRandomCard()
     let secondCard = getRandomCard()
     cards = [firstCard, secondCard]
