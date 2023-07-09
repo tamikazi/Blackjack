@@ -12,6 +12,15 @@ let messageEl = document.getElementById("message-el")
 let cardsEl = document.getElementById("cards-el")
 let sumEl = document.getElementById("sum-el")
 
+let cash = {
+    name: "Cash",
+    amount: 145
+}
+
+let cashEl = document.getElementById("cash-el")
+
+cashEl.textContent = cash.name + ": $" + cash.amount
+
 function renderGame() {
     cardsEl.textContent = "Cards: "
     for (let i = 0; i < cards.length; i++) {
